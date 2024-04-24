@@ -4,7 +4,8 @@ import openai
 import autogen
 import os
 from autogen import ConversableAgent
-os.environ["https_proxy"] = "http://127.0.0.1:23457"
+#If proxy servers are applicable, add the following line
+#os.environ["https_proxy"] = "http://127.0.0.1:23457"
 
 #llm_config = {"model": "gpt-4", "api_key": os.environ["OPENAI_API_KEY"]}
 
